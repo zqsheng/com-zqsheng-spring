@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: zqsheng-spring-test
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_jrzb_audit?useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 116026
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+
